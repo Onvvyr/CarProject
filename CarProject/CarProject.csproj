@@ -145,6 +145,10 @@
     <Compile Include="Migrations\202111171108054_Model2.Designer.cs">
       <DependentUpon>202111171108054_Model2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202111171115243_Model21.cs" />
+    <Compile Include="Migrations\202111171115243_Model21.Designer.cs">
+      <DependentUpon>202111171115243_Model21.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\CarDbContext.cs" />
     <Compile Include="Models\CarModel.cs" />
@@ -218,6 +222,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202111171108054_Model2.resx">
       <DependentUpon>202111171108054_Model2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202111171115243_Model21.resx">
+      <DependentUpon>202111171115243_Model21.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
